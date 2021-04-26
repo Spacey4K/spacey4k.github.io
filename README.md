@@ -1,2 +1,2 @@
-# spcy.github.io
+# spcy.gq
 Spacey Website
