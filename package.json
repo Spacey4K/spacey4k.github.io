@@ -1,0 +1,23 @@
+{
+    "name": "spacey4k.github.io",
+    "version": "1.0.0",
+    "description": "https://spacey4k.github.io/",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Spacey4K/spacey4k.github.io.git"
+    },
+    "keywords": [],
+    "author": "Spacey4K",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Spacey4K/spacey4k.github.io/issues"
+    },
+    "homepage": "https://github.com/Spacey4K/spacey4k.github.io#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.0.23"
+    }
+}
