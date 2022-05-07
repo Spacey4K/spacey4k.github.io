@@ -16,7 +16,7 @@
     "bugs": {
         "url": "https://github.com/Spacey4K/spacey4k.github.io/issues"
     },
-    "homepage": "https://github.com/Spacey4K/spacey4k.github.io#readme",
+    "homepage": "https://spacey.gq",
     "devDependencies": {
         "tailwindcss": "^3.0.23"
     }
