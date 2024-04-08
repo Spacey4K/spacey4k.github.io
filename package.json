@@ -4,7 +4,7 @@
 	"description": "https://spacey4k.github.io/",
 	"main": "index.js",
 	"scripts": {
-		"start": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
+		"dev": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
 		"build": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --minify"
 	},
 	"repository": {
