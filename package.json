@@ -1,23 +1,24 @@
 {
-    "name": "spacey4k.github.io",
-    "version": "1.0.0",
-    "description": "https://spacey4k.github.io/",
-    "main": "index.js",
-    "scripts": {
-        "start": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Spacey4K/spacey4k.github.io.git"
-    },
-    "keywords": [],
-    "author": "Spacey4K",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Spacey4K/spacey4k.github.io/issues"
-    },
-    "homepage": "https://spacey.gq",
-    "devDependencies": {
-        "tailwindcss": "^3.0.23"
-    }
+	"name": "spacey4k.github.io",
+	"version": "1.0.0",
+	"description": "https://spacey4k.github.io/",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
+		"build": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --minify"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Spacey4K/spacey4k.github.io.git"
+	},
+	"keywords": [],
+	"author": "Spacey4K",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Spacey4K/spacey4k.github.io/issues"
+	},
+	"homepage": "https://spacey.gq",
+	"devDependencies": {
+		"tailwindcss": "^3.4.3"
+	}
 }

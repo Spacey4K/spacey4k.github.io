@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 20px;
+	scroll-behavior: smooth;
+	font-family: Tahoma, sans-serif;
+	color: white;
+	background: radial-gradient(ellipse at bottom, #131d29 0%, #090a0f 100%) no-repeat;
+}
